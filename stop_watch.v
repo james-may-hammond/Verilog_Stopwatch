@@ -22,11 +22,11 @@ module sw(
 
     // Display
     seven_seg_dec d0(sec0,seg0);
-    seven_seg_dec d0(sec1,seg1);
-    seven_seg_dec d0(min0,seg2);
-    seven_seg_dec d0(min1,seg3);
-    seven_seg_dec d0(hr0,seg4);
-    seven_seg_dec d0(hr1,seg5);
+    seven_seg_dec d1(sec1,seg1);
+    seven_seg_dec d2(min0,seg2);
+    seven_seg_dec d3(min1,seg3);
+    seven_seg_dec d4(hr0,seg4);
+    seven_seg_dec d5(hr1,seg5);
 
 endmodule
     
